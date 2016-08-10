@@ -37,5 +37,17 @@ describe("generator the numbers from 1 to 100", function() {
         expect(actual[4]).to.eql(expected2);
         expect(actual[14]).to.eql(expected1);
     } );
+    
+    
+    //Second Version
+
+    it("shoulde returne 1 when the function start the 15", function () {
+        var input=15;
+        var expected ="FizzBuzz";
+        var actual= Generetor.firstGenaration(input);
+        expect(actual).to.eql(expected);
+    });   
+    
+    
 
 });

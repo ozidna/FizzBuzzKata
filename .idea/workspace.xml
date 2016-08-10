@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9ede09e-298e-4697-8abd-a8165f901b3d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generetorNumbre.js" afterPath="$PROJECT_DIR$/lib/generetorNumbre.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/test.spec.js" afterPath="$PROJECT_DIR$/spec/test.spec.js" />
     </list>
     <ignored path="FizzBuzzKata.iws" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="test.spec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/test.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="904">
+              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -37,8 +39,8 @@
       <file leaf-file-name="generetorNumbre.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generetorNumbre.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="88">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -57,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/generetorNumbre.js" />
         <option value="$PROJECT_DIR$/spec/test.spec.js" />
+        <option value="$PROJECT_DIR$/lib/generetorNumbre.js" />
       </list>
     </option>
   </component>
@@ -579,12 +581,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470834161891</updated>
-      <workItem from="1470834163390" duration="7284000" />
+      <workItem from="1470834163390" duration="7620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7284000" />
+    <option name="totallyTimeSpent" value="7620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1359" width="2418" height="1318" extended-state="6" />
@@ -626,16 +628,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/generetorNumbre.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="88">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/test.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="904">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
           <folding />
         </state>
       </provider>
