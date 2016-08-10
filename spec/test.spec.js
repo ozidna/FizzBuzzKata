@@ -57,7 +57,6 @@ describe("generator the numbers from 1 to 100", function() {
         expect(actual[2]).to.eql(expected1);
         expect(actual[4]).to.eql(expected2);
         expect(actual[14]).to.eql(expected3);
-
     } );
     
     
