@@ -20,6 +20,12 @@ describe("generator the numbers from 1 to 100", function() {
         var expected ="Fizz";
         var actual= Generetor.firstGenaration(input);
         expect(actual).to.eql(expected);
+    } );
+    it("shoulde returne Buzz when the inpute is 5",function () {
+        var input=5;
+        var expected ="Buzz";
+        var actual= Generetor.firstGenaration(input);
+        expect(actual).to.eql(expected);
     } )
 
 });
