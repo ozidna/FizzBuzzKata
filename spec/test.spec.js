@@ -8,8 +8,11 @@ describe("generator the numbers from 1 to 100", function() {
 
         expect(Generetor).to.not.be.undefined;
     });
+    it("shoulde returne 1 when the function start the 1 to 1", function () {
+        var input=1;
+        var expected =1;
+        var actual= Generetor.firstGenaration(input);
+        expect(actual).to.be(expected);
+    });
 
-    
-
-
-})
+});
