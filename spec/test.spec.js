@@ -35,5 +35,18 @@ describe("generator the numbers from 1 to 100", function() {
         expect(actual).to.eql(expected);
 
     } );
+    it("shoulde returne numbers from 1 to 100 but Fizz in place the 3 and Buzz in place the 5 ",function () {
+
+        var expected1 ="Fizz";
+        var expected2 ="Buzz";
+        var actual= Generetor.Genarator();
+        expect(actual[2]).to.eql(expected1);
+        expect(actual[4]).to.eql(expected2);
+        expect(actual[14]).to.eql(expected1);
+
+
+
+
+    } );
 
 });
