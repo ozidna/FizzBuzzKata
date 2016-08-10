@@ -26,6 +26,14 @@ describe("generator the numbers from 1 to 100", function() {
         var expected ="Buzz";
         var actual= Generetor.firstGenaration(input);
         expect(actual).to.eql(expected);
-    } )
+    } );
+    //function generator frome 1 to 100
+    it("shoulde returne numbers from 1 to 6 but Fizz in place the 3 and Buzz in place the 5 ",function () {
+
+        var expected =[1,2,"Fizz",4,"Buzz","Fizz"];
+        var actual= Generetor.Genarator1to6();
+        expect(actual).to.eql(expected);
+
+    } );
 
 });
