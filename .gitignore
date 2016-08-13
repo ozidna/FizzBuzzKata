@@ -1,0 +1,4 @@
+#Intellij
+.idea/
+# Modules npm
+node_modules/

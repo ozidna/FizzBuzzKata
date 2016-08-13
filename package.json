@@ -1,0 +1,32 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Dans ce kata on va ecrire un programe en javaScript qui va generer des nombre entre 1 et 100, mais dans le cas des multiple de 3 il genere \"Fizz\" et dans le cas des muultiples de 5 il genere \"Buzz\"",
+  "main": "main.js",
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "chai": "^3.5.0",
+    "scanf": "^0.7.2",
+    "node": "^0.0.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "jasmine-node spec --verbose",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozidna/FizzBuzzKata.git"
+  },
+  "keywords": [
+    "fizzBuzz"
+  ],
+  "author": "othmane Zidna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozidna/FizzBuzzKata/issues"
+  },
+  "homepage": "https://github.com/ozidna/FizzBuzzKata#readme"
+}
