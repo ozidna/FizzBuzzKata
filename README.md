@@ -20,6 +20,19 @@ npm start
 npm test
 
 
+NB:
+j'ai separer les deux version dans le git
+
+*si vous voulez tester la premier version :
+ git checkout VERSION1
+
+*si vous voulez tester la deuxieme version :
+ git checkout VERSION2
+
+ *Le master contien la derniers version c-a-d: VERSION2
+
+Bon Courage.
+
 
 
 
