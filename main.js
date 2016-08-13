@@ -3,6 +3,7 @@
  */
 var checkerFizzBuzz = require('./lib/generetorNumbre');
 var scanf = require('scanf');
+var firstAndSecondMultiple=[3,5];
 
 console.log("\n\n*********************** Bonjour ***********************\n\n")
 console.log("Menu:\n");
@@ -14,6 +15,6 @@ while (number !== 0) {
     console.log("\nMerci de saisir un nombre entre 1 et 100 si voux t'apper 0 vous allez quitter l'application?  \n");
     var number = scanf('%d');
     if (number !== 0 &&(number!==null)) {
-        console.log(checkerFizzBuzz.firstGenaration(number) + "\n");
+        console.log(checkerFizzBuzz.firstGenaration(number,firstAndSecondMultiple) + "\n");
     }
 }
