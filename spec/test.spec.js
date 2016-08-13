@@ -51,7 +51,7 @@ describe("generator the numbers from 1 to 100", function() {
 
     //Second Version
 
-    it("should return 1 when the function start the 15", function () {
+    it("should return FizzBuzz when the the input is multiple of 3 and 5", function () {
         var expected ="FizzBuzz";        ;
         expect(checkerFizzBuzz.firstGenaration(15,firstAndSecondMultiple)).to.eql(expected);
         expect(checkerFizzBuzz.firstGenaration(30,firstAndSecondMultiple)).to.eql(expected);
@@ -86,6 +86,12 @@ describe("generator the numbers from 1 to 100", function() {
         expect(checkerFizzBuzz.firstGenaration(18,[null,9])).to.eql(expected);
         expect(checkerFizzBuzz.firstGenaration(27,[null,9])).to.eql(expected);
     } );
+    it("should return FizzBuzz when the the input is multiple of 2 and 9", function () {
+        var expected ="FizzBuzz";        ;
+        expect(checkerFizzBuzz.firstGenaration(18,[2,9])).to.eql(expected);
+        expect(checkerFizzBuzz.firstGenaration(36,[2,9])).to.eql(expected);
+        expect(checkerFizzBuzz.firstGenaration(54,[2,9])).to.eql(expected);
+    });
 
 
 });
