@@ -70,7 +70,7 @@ describe("generator the numbers from 1 to 100", function() {
 
     it("should return 100",function () {
         expect(checkerFizzBuzz.Generetor(firstAndSecondMultiple).length).to.eql(100)
-    })
+    });
 
     //3 eme Version
 
@@ -79,7 +79,13 @@ describe("generator the numbers from 1 to 100", function() {
         expect(checkerFizzBuzz.firstGenaration(2,[2,null])).to.eql(expected);
         expect(checkerFizzBuzz.firstGenaration(4,[2,null])).to.eql(expected);
         expect(checkerFizzBuzz.firstGenaration(6,[2,null])).to.eql(expected);
+    });
+    it("should return Buzz when the input is a multiple of 9",function () {
+        var expected ="Buzz";
+        expect(checkerFizzBuzz.firstGenaration(9,[null,9])).to.eql(expected);
+        expect(checkerFizzBuzz.firstGenaration(18,[null,9])).to.eql(expected);
+        expect(checkerFizzBuzz.firstGenaration(27,[null,9])).to.eql(expected);
+    } );
 
-    })
 
 });
