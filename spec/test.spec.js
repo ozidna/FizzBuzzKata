@@ -87,11 +87,22 @@ describe("generator the numbers from 1 to 100", function() {
         expect(checkerFizzBuzz.firstGenaration(27,[null,9])).to.eql(expected);
     } );
     it("should return FizzBuzz when the the input is multiple of 2 and 9", function () {
-        var expected ="FizzBuzz";        ;
+        var expected ="FizzBuzz";
         expect(checkerFizzBuzz.firstGenaration(18,[2,9])).to.eql(expected);
         expect(checkerFizzBuzz.firstGenaration(36,[2,9])).to.eql(expected);
         expect(checkerFizzBuzz.firstGenaration(54,[2,9])).to.eql(expected);
     });
+
+    it("should return numbers from 1 to 100 but Fizz in place the first number and Buzz in place the second number and in the multiple of first+second number return FizzBuzz ",function () {
+        var expected1 ="Fizz";
+        var expected2 ="Buzz";
+        var expected3="FizzBuzz";
+        var actual= checkerFizzBuzz.Generetor([2,9]);
+        expect(actual[1]).to.eql(expected1);
+        expect(actual[8]).to.eql(expected2);
+        expect(actual[17]).to.eql(expected3);
+    } );
+
 
 
 });
