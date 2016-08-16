@@ -48,7 +48,20 @@ j'ai separer les deux version dans le git
  apres l'instalation de node et de npm lors du lancement de l'aplication un menu s'affiche pour vous dirigez a l'utlisation de l'application
 
 
-Bon Courage.
+Integration de l'application
+
+
+Integration de la librairie dans une application Node existante:
+
+var checkerFizzBuzz = require('./lib/generetorNumbre');
+
+--> choisir le multiple de Fizz
+--> choisir le multiple de Buzz
+--> apeler la fonction qui genere les nombres de 1 a 100 et remplace les multiple de Fizz par Fizz et les multiple de Buzz par Buzz
+
+var programe= checkerFizzBuzz.Generetor([multipleFizz, multipleBuzz])
+
+--> affichage de retour de programe
 
 
 
