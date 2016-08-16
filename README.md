@@ -9,8 +9,16 @@ c'est comme la version 1 mais qu'on on a des nombres multiple de 3 et 5 en meme 
 #------------Utilisation de l'application------------:
 
 *Instalation:
+
+
 1- tout d'abord clone repository git par la commande
  git clone https://github.com/ozidna/FizzBuzzKata.git
+
+-- installation de node --
+
+install node
+
+
 2-npm install
 
 *lancer l'application
@@ -21,6 +29,7 @@ npm test
 
 
 NB:
+
 j'ai separer les deux version dans le git
 
 *si vous voulez tester la premier version :
@@ -29,7 +38,15 @@ j'ai separer les deux version dans le git
 *si vous voulez tester la deuxieme version :
  git checkout VERSION2
 
- *Le master contien la derniers version c-a-d: VERSION2
+ *si vous voulez tester la troisieme version :
+ git checkout VERSION3
+
+ *Le master contient la derniers version c-a-d: VERSION3
+
+
+ utilisation de version3:
+ apres l'instalation de node et de npm lors du lancement de l'aplication un menu s'affiche pour vous dirigez a l'utlisation de l'application
+
 
 Bon Courage.
 
