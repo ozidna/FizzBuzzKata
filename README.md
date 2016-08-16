@@ -63,6 +63,9 @@ var programe= checkerFizzBuzz.Generetor([multipleFizz, multipleBuzz])
 
 --> affichage de retour de programe
 
+console.log(programe);
+
+
 
 
 
